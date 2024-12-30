@@ -16,11 +16,11 @@ Over 20k+ lines of code over client + server, utilizing multiple of my and other
   
 Create tasty recipes from a picture of your fridge. Using GPT+Vision and my open source GPT+Function Calling library, this app generates infinitely scrolling recipes from the user’s ingredients. The server uses 5+ GPT functions to generate a recipe, instructions, calorie count, and more for a given input.
 
-#### [Java GPT Client](https://github.com/Condo97/Java-GPT-Client-OAIGPTConnector) (_2022 - Present_) 
+[**Java GPT Client**](https://github.com/Condo97/Java-GPT-Client-OAIGPTConnector) (_2022 - Present_) 
 
 Easy to use GPT client coded in Java. Easy to create JSON structured outputs and fill Java objects with GPT generated data. This is used in all of my GPT apps' servers and is actively maintained.
 
-#### [SQL Componentizer](https://github.com/Condo97/SQLComponentizer) (_2022 - Present_)
+[**SQL Componentizer**](https://github.com/Condo97/SQLComponentizer) (_2022 - Present_)
 
 Specify MySQL tables as Java obejects! Easily work with any MySQL database. Check it out, it's actively maintained.
 
