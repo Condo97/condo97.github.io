@@ -1,0 +1,62 @@
+{
+  "name": "Druid Game",
+  "servePort": 23029,
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Assets": {
+        "$className": "Folder",
+        "Gui": {
+          "$className": "Folder",
+          "$path": "assets/replicated/Gui"
+        },
+        "Audio": {
+          "$className": "Folder",
+          "$path": "assets/replicated/Audio"
+        },
+        "Previews": {
+          "$className": "Folder",
+          "TowerParts": { "$path": "assets/replicated/Previews/TowerParts" }
+        }
+      }
+    },
+
+    "ServerStorage": {
+      "$ignoreUnknownInstances": true,
+      "StarterPackParts": { "$path": "assets/server/StarterPackParts" },
+      "Animals": { "$path": "assets/server/Animals" }
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$ignoreUnknownInstances": true,
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
